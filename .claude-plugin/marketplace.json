@@ -3,6 +3,9 @@
   "owner": {
     "name": "sumitnyayadhish"
   },
+  "metadata": {
+    "description": "Auto-updated, security-scanned catalog of hidden open-source repos (MCP servers, skills, subagents, hooks, plugins) that Claude Code uses to improve every task."
+  },
   "plugins": [
     {
       "name": "repo-radar",
