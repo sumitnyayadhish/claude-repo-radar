@@ -1,0 +1,104 @@
+{
+  "$comment": "Discovery + matching config. Edit queries/categories here; scripts read this file.",
+  "repo": "sumitnyayadhish/claude-repo-radar",
+  "filters": {
+    "minStars": 15,
+    "maxStars": 8000,
+    "maxAgeDays": 540,
+    "maxDaysSincePush": 90,
+    "maxCatalogSize": 400,
+    "perQueryPages": 2
+  },
+  "queries": [
+    "topic:claude-code",
+    "topic:claude-code-plugin",
+    "topic:claude-code-skills",
+    "topic:claude-skills",
+    "topic:agent-skills",
+    "topic:claude-code-hooks",
+    "topic:claude-code-subagents",
+    "topic:mcp-server",
+    "topic:model-context-protocol",
+    "topic:claude-desktop",
+    "\"claude code\" in:name,description",
+    "\"CLAUDE.md\" in:readme",
+    "\"claude code\" skill in:name,description",
+    "\"claude code\" mcp in:name,description",
+    "\"claude code\" hooks in:name,description",
+    "\"claude code\" subagent in:name,description"
+  ],
+  "categories": {
+    "mcp-server": {
+      "label": "MCP Servers",
+      "repoKeywords": ["mcp", "model context protocol", "mcp-server", "mcp server"],
+      "promptKeywords": ["mcp", "connect", "integration", "api", "database", "server", "tool"]
+    },
+    "skills": {
+      "label": "Skills & Prompts",
+      "repoKeywords": ["skill", "skills", "agent-skills", "prompt", "slash command", "commands"],
+      "promptKeywords": ["skill", "prompt", "command", "workflow"]
+    },
+    "subagents": {
+      "label": "Subagents & Multi-agent",
+      "repoKeywords": ["subagent", "sub-agent", "multi-agent", "agents", "orchestrat", "swarm", "parallel"],
+      "promptKeywords": ["agent", "subagent", "parallel", "orchestrate", "team", "swarm", "multi"]
+    },
+    "hooks": {
+      "label": "Hooks & Automation",
+      "repoKeywords": ["hook", "hooks", "automation", "notification", "statusline", "status line"],
+      "promptKeywords": ["hook", "automate", "automation", "notify", "notification", "statusline", "every time", "whenever"]
+    },
+    "plugins": {
+      "label": "Plugins & Marketplaces",
+      "repoKeywords": ["plugin", "marketplace", "extension"],
+      "promptKeywords": ["plugin", "marketplace", "install", "extension"]
+    },
+    "memory-context": {
+      "label": "Memory & Context",
+      "repoKeywords": ["memory", "context", "claude.md", "knowledge", "rag", "embedding", "docs", "documentation"],
+      "promptKeywords": ["memory", "remember", "context", "docs", "documentation", "knowledge", "codebase", "rag", "search"]
+    },
+    "frontend-design": {
+      "label": "Frontend, UI & Design",
+      "repoKeywords": ["ui", "frontend", "design", "figma", "tailwind", "react", "component", "landing", "css", "shadcn"],
+      "promptKeywords": ["ui", "frontend", "design", "website", "landing", "page", "react", "nextjs", "next.js", "tailwind", "css", "figma", "component", "dashboard"]
+    },
+    "testing-quality": {
+      "label": "Testing, Review & Quality",
+      "repoKeywords": ["test", "testing", "review", "lint", "tdd", "quality", "debug", "e2e", "playwright"],
+      "promptKeywords": ["test", "tests", "bug", "debug", "fix", "review", "lint", "error", "tdd", "e2e", "refactor"]
+    },
+    "browser-web": {
+      "label": "Browser, Web & Scraping",
+      "repoKeywords": ["browser", "playwright", "puppeteer", "scrap", "crawl", "web search", "chrome"],
+      "promptKeywords": ["browser", "scrape", "scraping", "crawl", "website", "chrome", "web", "research", "search"]
+    },
+    "devops-cloud": {
+      "label": "DevOps, Cloud & Infra",
+      "repoKeywords": ["docker", "kubernetes", "k8s", "aws", "gcp", "azure", "terraform", "deploy", "ci", "devops", "sandbox", "container"],
+      "promptKeywords": ["deploy", "docker", "kubernetes", "aws", "cloud", "server", "ci", "pipeline", "terraform", "vercel", "hosting"]
+    },
+    "data-ai": {
+      "label": "Data, AI & LLM Tools",
+      "repoKeywords": ["llm", "openai", "gemini", "data", "sql", "postgres", "analytics", "ml", "rag", "vector"],
+      "promptKeywords": ["data", "sql", "database", "postgres", "csv", "excel", "analytics", "ml", "model", "llm", "chart"]
+    },
+    "content-media": {
+      "label": "Content, Video & Marketing",
+      "repoKeywords": ["video", "youtube", "image", "content", "marketing", "seo", "social", "instagram", "remotion", "audio", "tts"],
+      "promptKeywords": ["video", "youtube", "reel", "image", "content", "marketing", "seo", "ads", "instagram", "post", "blog", "audio"]
+    },
+    "security": {
+      "label": "Security & Safety",
+      "repoKeywords": ["security", "secret", "vulnerab", "audit", "guardrail", "permission", "safety"],
+      "promptKeywords": ["security", "secure", "vulnerability", "audit", "secret", "auth", "permission"]
+    },
+    "productivity-ui": {
+      "label": "Usage, UI & Productivity for Claude Code",
+      "repoKeywords": ["usage", "cost", "token", "dashboard", "gui", "desktop", "session", "monitor", "tui", "vscode", "neovim", "ide"],
+      "promptKeywords": ["usage", "cost", "token", "session", "ide", "vscode", "neovim", "monitor"]
+    }
+  },
+  "pinned": [],
+  "blocklist": []
+}

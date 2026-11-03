@@ -1,0 +1,41 @@
+name: Discover hidden repos
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily 03:17 UTC
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Max new repos to security-scan this run"
+        default: "80"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-write
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Discover, scan and rebuild catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_NEW: ${{ inputs.max_new || '80' }}
+        run: node scripts/discover.mjs --max-new "$MAX_NEW"
+      - name: Bump plugin version and commit
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          node scripts/bump-version.mjs
+          git config user.name "repo-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "catalog: daily discovery $(date -u +%F)"
+          git push

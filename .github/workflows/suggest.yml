@@ -1,0 +1,50 @@
+name: Add suggested repo
+
+# Anyone can open a "Suggest a repo" issue (e.g. a repo they saw in a reel).
+# The repo is security-scanned; low/medium risk is added, high risk is quarantined.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: catalog-write
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: contains(github.event.issue.labels.*.name, 'repo-suggestion')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan and add
+        id: add
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          node scripts/add-repo.mjs "$ISSUE_BODY" --source community > result.txt 2>&1 || true
+          cat result.txt
+      - name: Commit
+        run: |
+          if git diff --quiet -- catalog README.md; then exit 0; fi
+          node scripts/bump-version.mjs
+          git config user.name "repo-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog README.md .claude-plugin
+          git commit -m "catalog: add suggestion from #${{ github.event.issue.number }}"
+          git pull --rebase && git push
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          { echo "Repo Radar result:"; echo '```'; cat result.txt; echo '```'; } > comment.md
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file comment.md
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"

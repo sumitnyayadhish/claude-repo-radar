@@ -1,0 +1,164 @@
+{
+  "updatedAt": "2026-11-02T23:42:19.670Z",
+  "count": 11,
+  "repos": [
+    {
+      "name": "Gentleman-Programming/gentle-shell",
+      "url": "https://github.com/Gentleman-Programming/gentle-shell",
+      "security": {
+        "risk": "high",
+        "score": 50,
+        "flags": [
+          "npm install-time script (preinstall/postinstall) — package.json",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — scripts/installer-server.mjs"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:26:03.390Z"
+      }
+    },
+    {
+      "name": "deepcoldy/botmux",
+      "url": "https://github.com/deepcoldy/botmux",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "pipes a remote download straight into a shell — .cursor/install.sh",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:26:07.454Z"
+      }
+    },
+    {
+      "name": "23blocks-OS/ai-maestro",
+      "url": "https://github.com/23blocks-OS/ai-maestro",
+      "security": {
+        "risk": "high",
+        "score": 55,
+        "flags": [
+          "pipes a remote download straight into a shell — install.sh",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — install.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:27:01.897Z"
+      }
+    },
+    {
+      "name": "ypollak2/llm-router",
+      "url": "https://github.com/ypollak2/llm-router",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "npm install-time script (preinstall/postinstall) — npm/package.json",
+          "pipes a remote download straight into a shell — scripts/dev/install.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:32:19.383Z"
+      }
+    },
+    {
+      "name": "wenlan-app/wenlan",
+      "url": "https://github.com/wenlan-app/wenlan",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "npm install-time script (preinstall/postinstall) — crates/wenlan-mcp/npm/package.json",
+          "pipes a remote download straight into a shell — install.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:33:07.754Z"
+      }
+    },
+    {
+      "name": "Servosity/msp-skills",
+      "url": "https://github.com/Servosity/msp-skills",
+      "security": {
+        "risk": "high",
+        "score": 55,
+        "flags": [
+          "pipes a remote download straight into a shell — skills/_meta/SKILL.md",
+          "sends API keys/tokens over the network — skills/abnormal/install.ps1"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:33:40.931Z"
+      }
+    },
+    {
+      "name": "JKHeadley/instar",
+      "url": "https://github.com/JKHeadley/instar",
+      "security": {
+        "risk": "high",
+        "score": 50,
+        "flags": [
+          "posts data to a webhook/paste/tunnel endpoint — .claude/skills/setup-wizard/SKILL.md",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:34:38.842Z"
+      }
+    },
+    {
+      "name": "HIDORAKAI002/ai-workspace-archive",
+      "url": "https://github.com/HIDORAKAI002/ai-workspace-archive",
+      "security": {
+        "risk": "high",
+        "score": 48,
+        "flags": [
+          "no license",
+          "disables Claude Code permission prompts — ai_agent_frameworks/major_frameworks/AutoGPT/.claude/skills/orchestrate/SKILL.md",
+          "posts data to a webhook/paste/tunnel endpoint — ai_agent_frameworks/major_frameworks/AutoGPT/.claude/skills/orchestrate/SKILL.md"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:37:47.394Z"
+      }
+    },
+    {
+      "name": "pezhik/skilltotal",
+      "url": "https://github.com/pezhik/skilltotal",
+      "security": {
+        "risk": "high",
+        "score": 145,
+        "flags": [
+          "pipes a remote download straight into a shell — skilltotal/scanners/install_scripts.py",
+          "npm install-time script (preinstall/postinstall) — skilltotal/scanners/install_scripts.py",
+          "executes base64-decoded code — skilltotal/scanners/install_scripts.py",
+          "decodes base64 into a shell — skilltotal/scanners/install_scripts.py",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — tests/eval_corpus/negative/AST01/credential-exfil/markdown-cited-paths/SKILL.md"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:40:03.637Z"
+      }
+    },
+    {
+      "name": "assembledhq/143",
+      "url": "https://github.com/assembledhq/143",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "pipes a remote download straight into a shell — deploy/scripts/install-tailscale.sh",
+          "npm install-time script (preinstall/postinstall) — frontend/package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:41:20.568Z"
+      }
+    },
+    {
+      "name": "star-ga/mind-mem",
+      "url": "https://github.com/star-ga/mind-mem",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "ships compiled binaries (libmindmem.so)",
+          "pipes a remote download straight into a shell — install-bootstrap.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-02T23:41:40.309Z"
+      }
+    }
+  ]
+}

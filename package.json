@@ -1,0 +1,14 @@
+{
+  "name": "claude-repo-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Auto-discovered, security-scanned catalog of hidden open-source repos for Claude Code, plus a plugin that suggests them per task.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "discover": "node scripts/discover.mjs",
+    "add": "node scripts/add-repo.mjs",
+    "suggest": "node scripts/suggest.mjs"
+  },
+  "license": "MIT"
+}

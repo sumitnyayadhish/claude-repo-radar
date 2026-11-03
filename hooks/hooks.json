@@ -1,0 +1,16 @@
+{
+  "description": "Repo Radar: suggest relevant, security-checked open-source repos for each prompt",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/suggest.mjs\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
