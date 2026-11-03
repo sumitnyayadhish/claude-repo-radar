@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Repo Radar social preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body { background: #0d1117; color: #e6edf3; font-family: Inter, system-ui, sans-serif; position: relative; }
+  .radar { position: absolute; right: -200px; top: 50%; transform: translateY(-50%); width: 640px; height: 640px; }
+  .wrap { position: absolute; left: 80px; top: 56px; width: 760px; }
+  .tag { font-family: "JetBrains Mono", monospace; color: #d97757; font-size: 22px; letter-spacing: .5px; }
+  h1 { font-size: 84px; font-weight: 800; line-height: 1; margin-top: 18px; letter-spacing: -2px; }
+  h1 span { color: #d97757; }
+  p { font-size: 28px; line-height: 1.35; color: #9da7b3; margin-top: 24px; font-weight: 500; width: 700px; }
+  p b { color: #e6edf3; }
+  .chips { display: flex; flex-wrap: nowrap; gap: 10px; margin-top: 32px; }
+  .chip { border: 1.5px solid #30363d; border-radius: 999px; padding: 8px 15px; font-size: 18px; color: #c9d1d9; font-weight: 500; white-space: nowrap; }
+  .chip.g { border-color: #2ea043; color: #3fb950; }
+  .foot { position: absolute; left: 80px; bottom: 50px; font-family: "JetBrains Mono", monospace; font-size: 22px; color: #6e7681; }
+</style></head>
+<body>
+<svg class="radar" viewBox="0 0 640 640">
+  <defs>
+    <radialGradient id="sw" cx="0" cy="0" r="1"><stop offset="0" stop-color="#d97757" stop-opacity=".55"/><stop offset="1" stop-color="#d97757" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g transform="translate(320 320)" fill="none" stroke="#30363d" stroke-width="2">
+    <circle r="300"/><circle r="225"/><circle r="150"/><circle r="75"/>
+    <line x1="-300" y1="0" x2="300" y2="0"/><line x1="0" y1="-300" x2="0" y2="300"/>
+    <path d="M0 0 L300 0 A300 300 0 0 0 212 -212 Z" fill="url(#sw)" stroke="none"/>
+    <line x1="0" y1="0" x2="300" y2="0" stroke="#d97757" stroke-width="3"/>
+    <g stroke="none">
+      <circle cx="180" cy="-90" r="10" fill="#3fb950"/><circle cx="120" cy="-200" r="8" fill="#3fb950"/>
+      <circle cx="-140" cy="110" r="8" fill="#d29922"/><circle cx="60" cy="170" r="9" fill="#3fb950"/>
+      <circle cx="-200" cy="-120" r="7" fill="#3fb950"/><circle cx="250" cy="60" r="7" fill="#3fb950"/>
+    </g>
+  </g>
+</svg>
+<div class="wrap">
+  <div class="tag">// claude-repo-radar</div>
+  <h1>Never miss a<br><span>hidden gem.</span></h1>
+  <p>New open-source tools for Claude Code, <b>found daily</b>, <b>security-scanned</b>, and <b>used automatically</b> on every task.</p>
+  <div class="chips">
+    <div class="chip">MCP servers</div><div class="chip">Skills</div><div class="chip">Subagents</div>
+    <div class="chip">Hooks</div><div class="chip">Plugins</div><div class="chip g">360+ repos · auto-updated</div>
+  </div>
+</div>
+<div class="foot">github.com/sumitnyayadhish/claude-repo-radar</div>
+</body></html>

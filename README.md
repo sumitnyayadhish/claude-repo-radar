@@ -1,5 +1,7 @@
 # 📡 Claude Repo Radar — never miss a new open-source tool for Claude Code
 
+![Claude Repo Radar: new open-source tools for Claude Code, found daily, security-scanned, used automatically](assets/social-preview.png)
+
 [![Daily discovery](https://github.com/sumitnyayadhish/claude-repo-radar/actions/workflows/discover.yml/badge.svg)](https://github.com/sumitnyayadhish/claude-repo-radar/actions/workflows/discover.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-orange)](#install-claude-code)
