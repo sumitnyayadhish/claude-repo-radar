@@ -1,6 +1,8 @@
-# Full catalog
+# Awesome Claude Code repos: MCP servers, skills, subagents, hooks & plugins (auto-updated daily)
 
-_Last updated: 2026-11-02 · 323 repos · 🟢 low risk · 🟡 review before use_
+Hidden open-source gems for Claude Code, discovered and security-scanned every day by [Claude Repo Radar](../README.md).
+
+_Last updated: 2026-11-03 · 323 repos · 🟢 low risk · 🟡 review before use_
 
 ### MCP Servers (89)
 

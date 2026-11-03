@@ -1,8 +1,19 @@
-# 📡 Claude Repo Radar
+# 📡 Claude Repo Radar — never miss a new open-source tool for Claude Code
 
-**Stop chasing GitHub links from reels.** Repo Radar finds hidden open-source repos for you every day:
-MCP servers, skills, subagents, hooks, plugins and tools. Each one is security-scanned. Then, on
-**every task you give Claude Code**, Radar suggests the ones that would make the result better.
+[![Daily discovery](https://github.com/sumitnyayadhish/claude-repo-radar/actions/workflows/discover.yml/badge.svg)](https://github.com/sumitnyayadhish/claude-repo-radar/actions/workflows/discover.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-orange)](#install-claude-code)
+[![Suggest a repo](https://img.shields.io/badge/Suggest-a%20repo-blue)](../../issues/new?template=suggest-repo.yml)
+
+**Stop chasing GitHub links from reels, tweets and YouTube.** New Claude Code MCP servers, skills,
+subagents, hooks and plugins come out every day. You don't need to track any of them yourself.
+
+Repo Radar is an **auto-updating awesome list** of hidden open-source repos for Claude Code, plus a
+**Claude Code plugin**. Once it's installed, **every task you give Claude Code automatically gets
+checked against the newest open-source tools.** Claude picks the right one, security-checks it and
+uses it (with your OK), so results go a level up without you lifting a finger.
+
+✅ Updated **every day** automatically · ✅ Every repo **security-scanned** · ✅ Works on **every prompt** · ✅ Free & open source
 
 > रील्स में रोज़ नई "hidden" GitHub repos आती हैं, और सबका track रखना मुश्किल है। Repo Radar यह काम
 > अपने-आप करता है: रोज़ नई repos ढूँढता है, security check करता है, और Claude Code में हर task
@@ -37,6 +48,7 @@ MCP servers, skills, subagents, hooks, plugins and tools. Each one is security-s
   hooks and MCP configs before using anything.
 
 ## Install (Claude Code)
+<a id="install-claude-code"></a>
 
 ```
 /plugin marketplace add sumitnyayadhish/claude-repo-radar
@@ -91,7 +103,7 @@ To tune search queries, categories, star/age limits, the blocklist and pinned re
 ## Catalog
 
 <!-- RADAR:START -->
-_Last updated: 2026-11-02 · 323 repos · 🟢 low risk · 🟡 review before use_
+_Last updated: 2026-11-03 · 323 repos · 🟢 low risk · 🟡 review before use_
 
 ### MCP Servers (89)
 
@@ -260,6 +272,30 @@ _Last updated: 2026-11-02 · 323 repos · 🟢 low risk · 🟡 review before us
 
 ➡️ [See the full catalog](catalog/CATALOG.md)
 <!-- RADAR:END -->
+
+## FAQ
+
+**What is the best way to find new Claude Code MCP servers, skills and plugins?**
+Install Repo Radar. It searches GitHub every day for new `claude-code`, `mcp-server`,
+`claude-skills`, `agent-skills` and hooks/subagents repos, and keeps the fast-rising hidden gems.
+
+**Do I have to keep track of the GitHub repos I see in Instagram reels or YouTube videos?**
+No. Most of them get picked up automatically. For one that doesn't, open a
+[Suggest a repo](../../issues/new?template=suggest-repo.yml) issue or run `/repo-radar:add <link>`.
+The bot scans it and adds it.
+
+**Does Claude Code use these repos automatically?**
+Yes, for matching tasks. The plugin adds the most relevant repos to every prompt, and for bigger
+tasks Claude also searches GitHub live. It still asks you before installing or running anything.
+
+**Is it safe to install random open-source Claude Code plugins and MCP servers?**
+Not blindly, which is why every repo here is scanned first: for malicious install scripts,
+credential theft, data exfiltration, prompt injection and fake stars. High-risk repos are
+quarantined. Claude also reviews each repo itself before using it.
+
+**Is this an awesome-claude-code list?**
+Yes, but one that maintains itself: [the catalog](catalog/CATALOG.md) is rebuilt daily, ranked by
+"gem score" (star velocity × freshness), and grouped by category.
 
 ## Contributing
 

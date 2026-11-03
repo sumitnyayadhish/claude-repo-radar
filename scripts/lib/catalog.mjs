@@ -101,7 +101,7 @@ function renderMarkdown(repos) {
     .join("\n");
 
   const stamp = `_Last updated: ${new Date().toISOString().slice(0, 10)} · ${repos.length} repos · 🟢 low risk · 🟡 review before use_\n`;
-  writeFileSync(join(ROOT, "catalog", "CATALOG.md"), `# Full catalog\n\n${stamp}\n${section(Infinity)}`);
+  writeFileSync(join(ROOT, "catalog", "CATALOG.md"), `# Awesome Claude Code repos: MCP servers, skills, subagents, hooks & plugins (auto-updated daily)\n\nHidden open-source gems for Claude Code, discovered and security-scanned every day by [Claude Repo Radar](../README.md).\n\n${stamp}\n${section(Infinity)}`);
 
   const readmePath = join(ROOT, "README.md");
   if (!existsSync(readmePath)) return;
