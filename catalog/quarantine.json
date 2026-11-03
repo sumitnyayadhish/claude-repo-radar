@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T01:16:01.787Z",
-  "count": 11,
+  "updatedAt": "2026-11-03T01:20:16.660Z",
+  "count": 14,
   "repos": [
     {
       "name": "Gentleman-Programming/gentle-shell",
@@ -158,6 +158,49 @@
         ],
         "scannedFiles": 12,
         "scannedAt": "2026-11-02T23:41:40.309Z"
+      }
+    },
+    {
+      "name": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
+      "security": {
+        "risk": "high",
+        "score": 40,
+        "flags": [
+          "ships compiled binaries (packages/notebook-network-sandbox/vendor/windows/arm64/notebook-appcontainer-host.exe, packages/notebook-network-sandbox/vendor/windows/x64/notebook-appcontainer-host.exe)",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-03T01:19:03.161Z"
+      }
+    },
+    {
+      "name": "desplega-ai/agent-swarm",
+      "url": "https://github.com/desplega-ai/agent-swarm",
+      "security": {
+        "risk": "high",
+        "score": 85,
+        "flags": [
+          "pipes a remote download straight into a shell — .claude/internal-skills/onboarding-qa/SKILL.md",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — .claude/internal-skills/onboarding-qa/SKILL.md",
+          "disables Claude Code permission prompts — .claude/internal-skills/onboarding-qa/SKILL.md",
+          "npm install-time script (preinstall/postinstall) — docs-site/package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-03T01:19:32.754Z"
+      }
+    },
+    {
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "security": {
+        "risk": "high",
+        "score": 40,
+        "flags": [
+          "crypto-miner indicators — .claude-plugin/plugin.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-03T01:19:35.471Z"
       }
     }
   ]

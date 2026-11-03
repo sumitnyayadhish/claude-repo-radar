@@ -1,6 +1,6 @@
 {
   "name": "repo-radar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auto-discovers hidden open-source GitHub repos (MCP servers, skills, subagents, hooks, plugins) and, on every task, suggests the security-checked ones that can make Claude Code's result better.",
   "author": {
     "name": "sumitnyayadhish"
@@ -8,5 +8,12 @@
   "homepage": "https://github.com/sumitnyayadhish/claude-repo-radar",
   "repository": "https://github.com/sumitnyayadhish/claude-repo-radar",
   "license": "MIT",
-  "keywords": ["claude-code", "mcp", "skills", "discovery", "awesome-list", "security"]
+  "keywords": [
+    "claude-code",
+    "mcp",
+    "skills",
+    "discovery",
+    "awesome-list",
+    "security"
+  ]
 }
