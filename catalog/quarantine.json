@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T01:20:16.660Z",
-  "count": 14,
+  "updatedAt": "2026-11-03T11:05:41.694Z",
+  "count": 17,
   "repos": [
     {
       "name": "Gentleman-Programming/gentle-shell",
@@ -201,6 +201,48 @@
         ],
         "scannedFiles": 12,
         "scannedAt": "2026-11-03T01:19:35.471Z"
+      }
+    },
+    {
+      "name": "autonomous-ai/openharness",
+      "url": "https://github.com/autonomous-ai/openharness",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "npm install-time script (preinstall/postinstall) — backend/package.json",
+          "pipes a remote download straight into a shell — cli/scripts/install-cli.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-03T11:02:48.419Z"
+      }
+    },
+    {
+      "name": "brenoepics/video-to-skill",
+      "url": "https://github.com/brenoepics/video-to-skill",
+      "security": {
+        "risk": "high",
+        "score": 60,
+        "flags": [
+          "pipes a remote download straight into a shell — SKILL.md",
+          "prompt-injection style instructions — SKILL.md"
+        ],
+        "scannedFiles": 1,
+        "scannedAt": "2026-11-03T11:03:40.595Z"
+      }
+    },
+    {
+      "name": "FootprintAI/Containarium",
+      "url": "https://github.com/FootprintAI/Containarium",
+      "security": {
+        "risk": "high",
+        "score": 55,
+        "flags": [
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — hacks/install.sh",
+          "pipes a remote download straight into a shell — hacks/runner/install.sh"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-03T11:04:11.001Z"
       }
     }
   ]
