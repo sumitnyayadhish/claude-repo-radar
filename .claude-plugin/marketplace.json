@@ -11,7 +11,7 @@
       "name": "repo-radar",
       "source": "./",
       "description": "Finds hidden open-source repos that make Claude Code better at your current task — auto-updated daily, security-scanned.",
-      "version": "0.1.3"
+      "version": "0.1.4"
     }
   ]
 }

@@ -105,174 +105,177 @@ To tune search queries, categories, star/age limits, the blocklist and pinned re
 ## Catalog
 
 <!-- RADAR:START -->
-_Last updated: 2026-11-04 · 400 repos · 🟢 low risk · 🟡 review before use_
+_Last updated: 2026-11-05 · 400 repos · 🟢 low risk · 🟡 review before use_
 
-### MCP Servers (99)
-
-| Repo | What it does | Stars | Gem score | Safety |
-|---|---|---|---|---|
-| [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) | 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 | ⭐ 1866 | 390 | 🟢 |
-| [muaaz9329/cheap-ag](https://github.com/muaaz9329/cheap-ag) | 50x your usage with cheap-ag. Opus/Astra plans, a dirt-cheap model writes every line, and tests decide what ships. Your  | ⭐ 263 | 376 | 🟢 |
-| [wendersoon/radar-cnpj-mcp](https://github.com/wendersoon/radar-cnpj-mcp) | Servidor MCP e CLI para localizar empresas brasileiras por CNAE e região, utilizando dados abertos de CNPJ da Receita Fe | ⭐ 121 | 331 | 🟢 |
-| [beenuar/AiSOC](https://github.com/beenuar/AiSOC) | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable  | ⭐ 7089 | 306 | 🟡 |
-| [INSANE0777/Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp) | Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode, ZCode…) design inspirati | ⭐ 413 | 301 | 🟢 |
-| [Tavotto/Tavotto](https://github.com/Tavotto/Tavotto) | AI drew your research figure. Tavotto makes it publication-ready: edit matplotlib and AI-generated figures on a canvas,  | ⭐ 659 | 299 | 🟢 |
-| [zordhalo/runs-on.dev](https://github.com/zordhalo/runs-on.dev) | Grab your own cool 'runs-on.dev' subdomain to use for free forever. | ⭐ 517 | 297 | 🟢 |
-| [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without readin | ⭐ 2515 | 289 | 🟡 |
-| [ZeroDayEvil/ai-security-tool](https://github.com/ZeroDayEvil/ai-security-tool) | 🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Ser | ⭐ 1326 | 286 | 🟢 |
-| [HamSanders/soundbox](https://github.com/HamSanders/soundbox) | Free, open-source, local alternative to ElevenLabs and Suno. AI sound effects, music with lyrics, text-to-speech and voi | ⭐ 141 | 281 | 🟢 |
-
-### Skills & Prompts (146)
+### MCP Servers (93)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binar | ⭐ 932 | 394 | 🟢 |
-| [GuoZheng-de-BaBa/nursing-research-skills](https://github.com/GuoZheng-de-BaBa/nursing-research-skills) | 护研搭子｜18个开源护理科研AI技能，覆盖检索、设计、数据、统计、写作与图表；新增队列研究和RCT流程、模板及合成示例。 | ⭐ 239 | 376 | 🟢 |
-| [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent  | ⭐ 5273 | 368 | 🟢 |
-| [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) | Cinematic launch films and motion design from code, directed by your coding agent. | ⭐ 990 | 363 | 🟡 |
-| [HeyChengC/wallstreet-explainer](https://github.com/HeyChengC/wallstreet-explainer) | 华尔街式财经/科技解读短片 skill：设计思路、风格语言，以及找片、截图、配音、渲染和混音工具。 | ⭐ 445 | 362 | 🟢 |
-| [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, tes | ⭐ 5947 | 361 | 🟢 |
-| [sno-ai/sno-station-skills](https://github.com/sno-ai/sno-station-skills) | Sno Station Skills: 31 tested skills that turn Claude Code and Codex into one working team. Cross-vendor peer review, au | ⭐ 861 | 358 | 🟢 |
-| [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) | Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with | ⭐ 1706 | 352 | 🟢 |
-| [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and st | ⭐ 5901 | 352 | 🟢 |
-| [FengZhenfei/carrel](https://github.com/FengZhenfei/carrel) | Ontology-Augmented Generation for AI agents.  | ⭐ 741 | 342 | 🟢 |
+| [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) | 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。 | ⭐ 3009 | 411 | 🟢 |
+| [muaaz9329/cheap-ag](https://github.com/muaaz9329/cheap-ag) | 50x your usage with cheap-ag. Opus/Astra plans, a dirt-cheap model writes every line, and tests decide what ships. Your  | ⭐ 278 | 369 | 🟢 |
+| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Cod | ⭐ 4567 | 334 | 🟢 |
+| [wendersoon/radar-cnpj-mcp](https://github.com/wendersoon/radar-cnpj-mcp) | Servidor MCP e CLI para localizar empresas brasileiras por CNAE e região, utilizando dados abertos de CNPJ da Receita Fe | ⭐ 127 | 329 | 🟢 |
+| [notinferred/keypaste](https://github.com/notinferred/keypaste) | A KeePass-compatible password and secrets manager for people who work with AI agents. | ⭐ 843 | 328 | 🟢 |
+| [beenuar/AiSOC](https://github.com/beenuar/AiSOC) | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable  | ⭐ 7338 | 307 | 🟡 |
+| [INSANE0777/Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp) | Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode, ZCode…) design inspirati | ⭐ 437 | 304 | 🟢 |
+| [Tavotto/Tavotto](https://github.com/Tavotto/Tavotto) | AI drew your research figure. Tavotto makes it publication-ready: edit matplotlib and AI-generated figures on a canvas,  | ⭐ 663 | 299 | 🟢 |
+| [zordhalo/runs-on.dev](https://github.com/zordhalo/runs-on.dev) | Grab your own cool 'runs-on.dev' subdomain to use for free forever. | ⭐ 522 | 297 | 🟢 |
+| [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without readin | ⭐ 2523 | 288 | 🟡 |
 
-### Subagents & Multi-agent (52)
-
-| Repo | What it does | Stars | Gem score | Safety |
-|---|---|---|---|---|
-| [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) | A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cur | ⭐ 6948 | 370 | 🟢 |
-| [eduwxyz/tucano](https://github.com/eduwxyz/tucano) | Your team of AI agents, on your Mac, Windows or Linux. Agents that talk in channels, write code, review each other and u | ⭐ 190 | 362 | 🟡 |
-| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordin | ⭐ 9005 | 315 | 🟡 |
-| [nuphos/nuphos](https://github.com/nuphos/nuphos) | The agent workspace for your team — run, manage and collaborate on coding agents across people, machines and tools. | ⭐ 348 | 311 | 🟡 |
-| [loopx-project/loopx](https://github.com/loopx-project/loopx) | Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-ru | ⭐ 6548 | 310 | 🟢 |
-| [savannahfeder/agentbox](https://github.com/savannahfeder/agentbox) | A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them  | ⭐ 345 | 305 | 🟢 |
-| [dagoSte/squadra](https://github.com/dagoSte/squadra) | Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound | ⭐ 1292 | 296 | 🟢 |
-| [scasella/claude-flightdeck](https://github.com/scasella/claude-flightdeck) | A Claude Code mod that puts a live agent dashboard in your terminal: context and cost, advisor timeline, every permissio | ⭐ 233 | 291 | 🟢 |
-| [Sidiora-Labs/paxeer-monorepo](https://github.com/Sidiora-Labs/paxeer-monorepo) | Paxeer X is a Distributed HyperState Machine for payments, code execution and intent routing. Designed for Machines and  | ⭐ 546 | 288 | 🟡 |
-| [sno-ai/sno-station](https://github.com/sno-ai/sno-station) | When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno Station puts Codex, Claude Code | ⭐ 1094 | 284 | 🟡 |
-
-### Hooks & Automation (5)
+### Skills & Prompts (152)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 6,000+ Claude Code mods, with what each one can access before you install it. Context and usage meters, prompt cache war | ⭐ 861 | 338 | 🟢 |
-| [GGGODLIN/gggodlin-cc-harness](https://github.com/GGGODLIN/gggodlin-cc-harness) | Governance layer of a personal Claude Code harness: gates, hooks, review and spec-to-ticket workflow. Reference, not a t | ⭐ 73 | 237 | 🟢 |
-| [ray-amjad/claude-code-mods](https://github.com/ray-amjad/claude-code-mods) | Claude Code mods: panes, bands, prompt guards, secret handling and memory tools | ⭐ 103 | 197 | 🟢 |
-| [heardlabs/heard](https://github.com/heardlabs/heard) | Local, open-source (Apache 2.0) voice layer for Claude Code and Codex on macOS that reads your coding agent's progress a | ⭐ 218 | 192 | 🟢 |
-| [neteye-platform/cc-split-diff-view](https://github.com/neteye-platform/cc-split-diff-view) | Claude Code mod that draws Edit and Write diffs in two side-by-side columns | ⭐ 18 | 165 | 🟢 |
+| [mhfed/vn-law-check](https://github.com/mhfed/vn-law-check) | Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cur | ⭐ 426 | 408 | 🟡 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binar | ⭐ 988 | 389 | 🟢 |
+| [kyy-logs/code-review-skill](https://github.com/kyy-logs/code-review-skill) | Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-der | ⭐ 254 | 379 | 🟢 |
+| [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent  | ⭐ 5324 | 366 | 🟢 |
+| [HeyChengC/wallstreet-explainer](https://github.com/HeyChengC/wallstreet-explainer) | 华尔街式财经/科技解读短片 skill：设计思路、风格语言，以及找片、截图、配音、渲染和混音工具。 | ⭐ 478 | 362 | 🟢 |
+| [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) | Cinematic launch films and motion design from code, directed by your coding agent. | ⭐ 997 | 359 | 🟡 |
+| [daveebbelaar/bama](https://github.com/daveebbelaar/bama) | BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift | ⭐ 1582 | 359 | 🟢 |
+| [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and st | ⭐ 6045 | 357 | 🟢 |
+| [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, tes | ⭐ 6034 | 355 | 🟢 |
+| [sno-ai/sno-station-skills](https://github.com/sno-ai/sno-station-skills) | Sno Station Skills: 31 tested skills that turn Claude Code and Codex into one working team. Cross-vendor peer review, au | ⭐ 861 | 354 | 🟢 |
 
-### Plugins & Marketplaces (6)
+### Subagents & Multi-agent (51)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) | Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 复刻 Claude Code Desktop 风格与交互体验的主题插件 | ⭐ 459 | 310 | 🟢 |
-| [NahumLitvin/prismantis](https://github.com/NahumLitvin/prismantis) | Colorful, themeable Claude Code replies: tables, code, diagrams, charts and tool rows in 15 themes, with copy buttons. A | ⭐ 288 | 302 | 🟢 |
+| [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) | A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cur | ⭐ 6974 | 371 | 🟢 |
+| [eduwxyz/tucano](https://github.com/eduwxyz/tucano) | Your team of AI agents, on your Mac, Windows or Linux. Agents that talk in channels, write code, review each other and u | ⭐ 226 | 364 | 🟡 |
+| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordin | ⭐ 9031 | 313 | 🟡 |
+| [nuphos/nuphos](https://github.com/nuphos/nuphos) | The agent workspace for your team — run, manage and collaborate on coding agents across people, machines and tools. | ⭐ 356 | 311 | 🟡 |
+| [synchopate/llama-modchip](https://github.com/synchopate/llama-modchip) | 🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU a | ⭐ 72 | 311 | 🟡 |
+| [loopx-project/loopx](https://github.com/loopx-project/loopx) | Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-ru | ⭐ 6552 | 310 | 🟢 |
+| [Kemerd/claude-hardware-in-the-loop](https://github.com/Kemerd/claude-hardware-in-the-loop) | Agent-driven hardware-in-the-loop engineering method: Claude Code skill, swarm orchestration, generator-first KiCad PCB  | ⭐ 68 | 308 | 🟢 |
+| [savannahfeder/agentbox](https://github.com/savannahfeder/agentbox) | A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its own git worktree. Answer them  | ⭐ 349 | 304 | 🟢 |
+| [dagoSte/squadra](https://github.com/dagoSte/squadra) | Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound | ⭐ 1286 | 300 | 🟢 |
+| [scasella/claude-flightdeck](https://github.com/scasella/claude-flightdeck) | A Claude Code mod that puts a live agent dashboard in your terminal: context and cost, advisor timeline, every permissio | ⭐ 237 | 287 | 🟢 |
+
+### Hooks & Automation (7)
+
+| Repo | What it does | Stars | Gem score | Safety |
+|---|---|---|---|---|
+| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 6,000+ Claude Code mods, with what each one can access before you install it. Context and usage meters, prompt cache war | ⭐ 874 | 338 | 🟢 |
+| [GGGODLIN/gggodlin-cc-harness](https://github.com/GGGODLIN/gggodlin-cc-harness) | Governance layer of a personal Claude Code harness: gates, hooks, review and spec-to-ticket workflow. Reference, not a t | ⭐ 73 | 231 | 🟢 |
+| [karanb192/claude-code-hooks](https://github.com/karanb192/claude-code-hooks) | 🪝 Claude Code hooks + an installable plugin marketplace: safety, cost, observability, productivity. | ⭐ 576 | 212 | 🟡 |
+| [ray-amjad/claude-code-mods](https://github.com/ray-amjad/claude-code-mods) | Claude Code mods: panes, bands, prompt guards, secret handling and memory tools | ⭐ 106 | 194 | 🟢 |
+| [heardlabs/heard](https://github.com/heardlabs/heard) | Local, open-source (Apache 2.0) voice layer for Claude Code and Codex on macOS that reads your coding agent's progress a | ⭐ 218 | 190 | 🟢 |
+| [neteye-platform/cc-split-diff-view](https://github.com/neteye-platform/cc-split-diff-view) | Claude Code mod that draws Edit and Write diffs in two side-by-side columns | ⭐ 19 | 166 | 🟢 |
+| [tillmeier/claude-code-guardrails](https://github.com/tillmeier/claude-code-guardrails) | Incident-derived guardrail hooks and a plan→implement→verify→crosscheck delivery loop for Claude Code. Hook cost measure | ⭐ 41 | 162 | 🟢 |
+
+### Plugins & Marketplaces (5)
+
+| Repo | What it does | Stars | Gem score | Safety |
+|---|---|---|---|---|
+| [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) | Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 复刻 Claude Code Desktop 风格与交互体验的主题插件 | ⭐ 474 | 311 | 🟢 |
+| [NahumLitvin/prismantis](https://github.com/NahumLitvin/prismantis) | Colorful, themeable Claude Code replies: tables, code, diagrams, charts and tool rows in 15 themes, with copy buttons. A | ⭐ 302 | 303 | 🟢 |
 | [gmickel/flow-next](https://github.com/gmickel/flow-next) | Faster than your agent alone. And better. A workflow plugin that takes a bug, idea or ticket to a verified pull request: | ⭐ 717 | 230 | 🟢 |
-| [oLucasAguilar/pii-tokens](https://github.com/oLucasAguilar/pii-tokens) | Claude Code plugin: swaps Brazilian personal data (CPF, CNPJ, email, phone) for reversible tokens before Claude reads it | ⭐ 20 | 210 | 🟢 |
-| [zkforge/dsh-claude-desktop-theme](https://github.com/zkforge/dsh-claude-desktop-theme) | DSH 桌面端 Claude 风格主题插件 | ⭐ 28 | 175 | 🟢 |
-| [gtapps/hermitd](https://github.com/gtapps/hermitd) | Think Claude Tag, but local. | ⭐ 83 | 134 | 🟢 |
+| [oLucasAguilar/pii-tokens](https://github.com/oLucasAguilar/pii-tokens) | Claude Code plugin: swaps Brazilian personal data (CPF, CNPJ, email, phone) for reversible tokens before Claude reads it | ⭐ 20 | 206 | 🟢 |
+| [zkforge/dsh-claude-desktop-theme](https://github.com/zkforge/dsh-claude-desktop-theme) | DSH 桌面端 Claude 风格主题插件 | ⭐ 30 | 178 | 🟢 |
 
-### Memory & Context (15)
+### Memory & Context (12)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [synchopate/llama-modchip](https://github.com/synchopate/llama-modchip) | ♟️ llama-modchip v2.1: Run 30B Sparse MoE LLMs on Pure CPU (0 GPUs) at 20–60.4 tok/s with a 256K Context Window via a 1. | ⭐ 72 | 311 | 🟡 |
-| [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) | 🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and per | ⭐ 2196 | 277 | 🟢 |
-| [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu | ⭐ 3261 | 273 | 🟢 |
-| [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) | Enterprise Agent Harness & MCP Gateway: connect APIs, databases, file servers and 600+ connectors (SAP, Odoo, Etsy…) to  | ⭐ 771 | 247 | 🟢 |
-| [mex-memory/mex](https://github.com/mex-memory/mex) | Team memory for engineers and their AI agents. Lives in your repo. Shared through Git. | ⭐ 1791 | 237 | 🟢 |
-| [activeloopai/hivemind](https://github.com/activeloopai/hivemind) | Hivemind turns your traces into reusable skills across agents | ⭐ 1642 | 236 | 🟢 |
+| [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) | 🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and per | ⭐ 2200 | 277 | 🟢 |
+| [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu | ⭐ 3302 | 274 | 🟢 |
+| [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) | Enterprise Agent Harness & MCP Gateway: connect APIs, databases, file servers and 600+ connectors (SAP, Odoo, Etsy…) to  | ⭐ 751 | 245 | 🟢 |
+| [mex-memory/mex](https://github.com/mex-memory/mex) | Team memory for engineers and their AI agents. Lives in your repo. Shared through Git. | ⭐ 1792 | 235 | 🟢 |
 | [slow-stack/mneme](https://github.com/slow-stack/mneme) | 🧠 The memory that dreams — cross-session memory for DeepSeek Harness. Local SQLite + Markdown mirrors, autoDream consol | ⭐ 208 | 235 | 🟢 |
-| [oliver-zehentleitner/keep-the-why](https://github.com/oliver-zehentleitner/keep-the-why) | The why layer of repo-native project memory: the reasoning behind a codebase as Markdown in the repo, versioned by Git,  | ⭐ 233 | 223 | 🟢 |
-| [ix-infrastructure/Ix](https://github.com/ix-infrastructure/Ix) | Understand any codebase instantly. System intelligence for codebases, built for humans and AI. | ⭐ 1142 | 213 | 🟡 |
-| [lastreload/mnemonic-proxy](https://github.com/lastreload/mnemonic-proxy) | Context management proxy for AI coding agents: verbatim archive, on-demand recall, and saved engine state on supported b | ⭐ 50 | 209 | 🟡 |
+| [activeloopai/hivemind](https://github.com/activeloopai/hivemind) | Hivemind turns your traces into reusable skills across agents | ⭐ 1645 | 232 | 🟢 |
+| [EternalNight996/memory-eternal](https://github.com/EternalNight996/memory-eternal) | Your AI forgets every session. Give it a memory it can trust: local-first, review-gated agent memory — one SQLite vault  | ⭐ 141 | 226 | 🟢 |
+| [oliver-zehentleitner/keep-the-why](https://github.com/oliver-zehentleitner/keep-the-why) | The why layer of repo-native project memory: the reasoning behind a codebase as Markdown in the repo, versioned by Git,  | ⭐ 234 | 223 | 🟢 |
+| [renorai/renor-engine](https://github.com/renorai/renor-engine) | Memory for coding agents: Markdown notes in a folder, recalled later over MCP. Apache-2.0. | ⭐ 39 | 215 | 🟢 |
+| [ix-infrastructure/Ix](https://github.com/ix-infrastructure/Ix) | Understand any codebase instantly. System intelligence for codebases, built for humans and AI. | ⭐ 1142 | 212 | 🟡 |
 
-### Frontend, UI & Design (21)
-
-| Repo | What it does | Stars | Gem score | Safety |
-|---|---|---|---|---|
-| [feimacode/open-design-agent-kit](https://github.com/feimacode/open-design-agent-kit) | Pro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+  | ⭐ 982 | 350 | 🟢 |
-| [Kai-Jungsthoefel/SOMA](https://github.com/Kai-Jungsthoefel/SOMA) | Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice | ⭐ 450 | 342 | 🟢 |
-| [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction | ⭐ 6832 | 339 | 🟢 |
-| [devswha/ovis](https://github.com/devswha/ovis) | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Co | ⭐ 1861 | 307 | 🟡 |
-| [vmc-inner-circle/k-style-ui-ux](https://github.com/vmc-inner-circle/k-style-ui-ux) | PRD 한 장으로 한국 앱 스타일 모바일 화면 초안을 15분 안팎에 만드는 Claude Code·Codex 플러그인 | ⭐ 365 | 287 | 🟢 |
-| [arla6ka/design.how](https://github.com/arla6ka/design.how) | Design systems, skills and visuals for coding agents | ⭐ 243 | 283 | 🟢 |
-| [kgoedecke/doop](https://github.com/kgoedecke/doop) | The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, liv | ⭐ 1685 | 283 | 🟢 |
-| [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for | ⭐ 4494 | 281 | 🟢 |
-| [kayraucklnc/beluga](https://github.com/kayraucklnc/beluga) | Beluga: An AI native IDE Mac app peer to peer connections everything designed around AI development | ⭐ 114 | 280 | 🟡 |
-| [get-bb/bb](https://github.com/get-bb/bb) | The agent IDE that builds itself | ⭐ 4862 | 275 | 🟢 |
-
-### Testing, Review & Quality (5)
+### Frontend, UI & Design (19)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) | Claude Code plugin to see, review and iterate on your agent's work without leaving the terminal: show images, play video | ⭐ 293 | 314 | 🟢 |
-| [owl234/ARL-Next](https://github.com/owl234/ARL-Next) | Modern attack-surface reconnaissance & asset monitoring platform — rebuilt from classic ARL with async decoupled schedul | ⭐ 485 | 236 | 🟢 |
-| [brandonmcconnell/geld](https://github.com/brandonmcconnell/geld) | Browser extension to hide tests when reviewing PRs on Github | ⭐ 86 | 205 | 🟡 |
-| [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe) | Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents (works best with Claude | ⭐ 522 | 198 | 🟢 |
-| [agodianel/esp32-claude-workbench](https://github.com/agodianel/esp32-claude-workbench) | Deterministic AI workflow for ESP32 firmware development — structured missions, implementation contracts, debug playbook | ⭐ 82 | 132 | 🟢 |
+| [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction | ⭐ 6961 | 340 | 🟢 |
+| [Kai-Jungsthoefel/SOMA](https://github.com/Kai-Jungsthoefel/SOMA) | Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice | ⭐ 454 | 334 | 🟢 |
+| [devswha/ovis](https://github.com/devswha/ovis) | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Co | ⭐ 1883 | 306 | 🟡 |
+| [kgoedecke/doop](https://github.com/kgoedecke/doop) | The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, liv | ⭐ 1748 | 285 | 🟢 |
+| [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for | ⭐ 4724 | 284 | 🟢 |
+| [vmc-inner-circle/k-style-ui-ux](https://github.com/vmc-inner-circle/k-style-ui-ux) | PRD 한 장으로 한국 앱 스타일 모바일 화면 초안을 15분 안팎에 만드는 Claude Code·Codex 플러그인 | ⭐ 369 | 282 | 🟢 |
+| [arla6ka/design.how](https://github.com/arla6ka/design.how) | Design systems, skills and visuals for coding agents | ⭐ 244 | 282 | 🟢 |
+| [kayraucklnc/beluga](https://github.com/kayraucklnc/beluga) | Beluga: An AI native IDE Mac app peer to peer connections everything designed around AI development | ⭐ 125 | 282 | 🟡 |
+| [mattabate/life-distributable](https://github.com/mattabate/life-distributable) | A personal agent that works on your life around the clock, on a Mac you own. One sentence to Claude Code installs it. | ⭐ 231 | 282 | 🟢 |
+| [feimacode/open-design-agent-kit](https://github.com/feimacode/open-design-agent-kit) | Pro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+  | ⭐ 1001 | 281 | 🟢 |
+
+### Testing, Review & Quality (4)
+
+| Repo | What it does | Stars | Gem score | Safety |
+|---|---|---|---|---|
+| [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) | Claude Code plugin to see, review and iterate on your agent's work without leaving the terminal: show images, play video | ⭐ 296 | 308 | 🟢 |
+| [owl234/ARL-Next](https://github.com/owl234/ARL-Next) | Modern attack-surface reconnaissance & asset monitoring platform — rebuilt from classic ARL with async decoupled schedul | ⭐ 495 | 237 | 🟢 |
+| [brandonmcconnell/geld](https://github.com/brandonmcconnell/geld) | Browser extension to hide tests when reviewing PRs on Github | ⭐ 105 | 214 | 🟡 |
+| [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe) | Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents (works best with Claude | ⭐ 524 | 198 | 🟢 |
 
 ### Browser, Web & Scraping (1)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [maultxyz/mault](https://github.com/maultxyz/mault) | Open-source trading card sorter. A 3D-printed machine scans each card with your webcam, identifies it in the browser, an | ⭐ 77 | 123 | 🟢 |
+| [firecrawl/skills](https://github.com/firecrawl/skills) | Firecrawl agent skills for Claude Code, Codex and Cursor: web search, scraping, crawling and browser interaction. Firecr | ⭐ 147 | 165 | 🟢 |
 
 ### DevOps, Cloud & Infra (5)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [TonF1917/claude-desktop-multiple-windows-different-api](https://github.com/TonF1917/claude-desktop-multiple-windows-different-api) | Multiple windows for Claude Desktop with different APIs at the same time: keep your official Claude subscription in one  | ⭐ 975 | 388 | 🟢 |
-| [scaleapi/agentenv-framework](https://github.com/scaleapi/agentenv-framework) | Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many | ⭐ 412 | 310 | 🟢 |
-| [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | A fast Rust safety hook that blocks destructive shell, git, and filesystem commands before AI coding agents run them. 50 | ⭐ 6248 | 279 | 🟡 |
-| [gotempsh/temps](https://github.com/gotempsh/temps) | AI-native open-source alternative to Vercel + Sentry + PostHog + Pingdom + Resend + E2B. 440+ CLI operations with drop-i | ⭐ 897 | 232 | 🟢 |
-| [patrickjaja/claude-desktop-extra](https://github.com/patrickjaja/claude-desktop-extra) | Unofficial Linux packages for Claude Desktop AI assistant with automated updates. | ⭐ 722 | 215 | 🟡 |
+| [TonF1917/claude-desktop-multiple-windows-different-api](https://github.com/TonF1917/claude-desktop-multiple-windows-different-api) | Multiple windows for Claude Desktop with different APIs at the same time: keep your official Claude subscription in one  | ⭐ 983 | 379 | 🟢 |
+| [scaleapi/agentenv-framework](https://github.com/scaleapi/agentenv-framework) | Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many | ⭐ 413 | 309 | 🟢 |
+| [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | A fast Rust safety hook that blocks destructive shell, git, and filesystem commands before AI coding agents run them. 50 | ⭐ 6257 | 279 | 🟡 |
+| [gotempsh/temps](https://github.com/gotempsh/temps) | AI-native open-source alternative to Vercel + Sentry + PostHog + Pingdom + Resend + E2B. 440+ CLI operations with drop-i | ⭐ 900 | 232 | 🟢 |
+| [patrickjaja/claude-desktop-extra](https://github.com/patrickjaja/claude-desktop-extra) | Unofficial Linux packages for Claude Desktop AI assistant with automated updates. | ⭐ 725 | 216 | 🟡 |
 
 ### Data, AI & LLM Tools (17)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [YOLOW92/pagesift](https://github.com/YOLOW92/pagesift) | Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdo | ⭐ 192 | 324 | 🟢 |
-| [respanai/respan-gateway](https://github.com/respanai/respan-gateway) | Open-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model,  | ⭐ 533 | 322 | 🟡 |
-| [gakonst/nanocode](https://github.com/gakonst/nanocode) | SDK for Frontier Embedded Agents. | ⭐ 653 | 281 | 🟢 |
-| [Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant) | Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Ott | ⭐ 3174 | 253 | 🟡 |
-| [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory) | Stop re-teaching your agent. Make your agent's memory work like a brain. Hippo is long-term memory for coding agents. It | ⭐ 791 | 251 | 🟢 |
-| [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | Symbol-level code retrieval for AI agents: fetch the function you need, not the whole file. Runs locally. 94.5% fewer to | ⭐ 2833 | 249 | 🟢 |
-| [caura-ai/caura](https://github.com/caura-ai/caura) | Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tier | ⭐ 553 | 243 | 🟢 |
-| [samuelfaj/distill](https://github.com/samuelfaj/distill) | Get FAR MORE done with FAR FEWER tokens 🔥 | ⭐ 775 | 242 | 🟡 |
-| [christopherkarani/Wax](https://github.com/christopherkarani/Wax) | Shared Single-file memory layer for all your agents, sub mili-second RAG over text, photo and video on Apple Silicon.. N | ⭐ 806 | 241 | 🟢 |
-| [Syngnat/GoNavi](https://github.com/Syngnat/GoNavi) | High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. \| 高性能多数据源数据库客户端：约 30MB | ⭐ 2088 | 235 | 🟡 |
+| [respanai/respan-gateway](https://github.com/respanai/respan-gateway) | Open-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model,  | ⭐ 566 | 325 | 🟡 |
+| [YOLOW92/pagesift](https://github.com/YOLOW92/pagesift) | Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdo | ⭐ 227 | 324 | 🟢 |
+| [gakonst/nanocode](https://github.com/gakonst/nanocode) | SDK for Frontier Embedded Agents. | ⭐ 654 | 280 | 🟢 |
+| [Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant) | Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Ott | ⭐ 3186 | 253 | 🟡 |
+| [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory) | Stop re-teaching your agent. Make your agent's memory work like a brain. Hippo is long-term memory for coding agents. It | ⭐ 790 | 251 | 🟢 |
+| [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | Symbol-level code retrieval for AI agents: fetch the function you need, not the whole file. Runs locally. 94.5% fewer to | ⭐ 2834 | 249 | 🟢 |
+| [samuelfaj/distill](https://github.com/samuelfaj/distill) | Get FAR MORE done with FAR FEWER tokens 🔥 | ⭐ 775 | 247 | 🟡 |
+| [410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes) | Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, | ⭐ 529 | 246 | 🟢 |
+| [caura-ai/caura](https://github.com/caura-ai/caura) | Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tier | ⭐ 548 | 242 | 🟢 |
+| [christopherkarani/Wax](https://github.com/christopherkarani/Wax) | Shared Single-file memory layer for all your agents, sub mili-second RAG over text, photo and video on Apple Silicon.. N | ⭐ 806 | 237 | 🟢 |
 
-### Content, Video & Marketing (2)
-
-| Repo | What it does | Stars | Gem score | Safety |
-|---|---|---|---|---|
-| [yanhua1010/self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) | Modular, tool-agnostic agent skills for social media content: briefs, trend research, platform-native copy for Xiaohongs | ⭐ 646 | 279 | 🟢 |
-| [AeternaLabsHQ/pullmd](https://github.com/AeternaLabsHQ/pullmd) | Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. P | ⭐ 516 | 239 | 🟢 |
-
-### Security & Safety (3)
+### Content, Video & Marketing (4)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [Cygnux-Labs/Tracekit](https://github.com/Cygnux-Labs/Tracekit) | Tamper-evident tracing, policy gates and cross-checks for AI agents: see what the agent did, and why. | ⭐ 413 | 313 | 🟢 |
-| [inoio/agents-sandbox](https://github.com/inoio/agents-sandbox) | Sandbox for AI coding agents (Claude Code, opencode, pi): runs each project in an isolated microVM with host-side secret | ⭐ 83 | 192 | 🟢 |
-| [gebruder/wirken](https://github.com/gebruder/wirken) | The enterprise gateway for autonomous agents. Identity management, per-channel isolation, credential vault, per-session  | ⭐ 194 | 179 | 🟡 |
+| [yanhua1010/self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) | Modular, tool-agnostic agent skills for social media content: briefs, trend research, platform-native copy for Xiaohongs | ⭐ 647 | 274 | 🟢 |
+| [Shalaby-VBS/tube-scholar](https://github.com/Shalaby-VBS/tube-scholar) | Turn any YouTube video into a bilingual (Arabic/English) study guide: timestamped explanation, 5-minute summary, animate | ⭐ 23 | 249 | 🟢 |
+| [Ootto-AI/claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) | Free, copy-paste Claude skills that run your content growth factory — turn ideas + your NotebookLM memory into scroll-st | ⭐ 379 | 237 | 🟢 |
+| [AeternaLabsHQ/pullmd](https://github.com/AeternaLabsHQ/pullmd) | Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. P | ⭐ 517 | 235 | 🟢 |
 
-### Usage, UI & Productivity for Claude Code (23)
+### Security & Safety (4)
 
 | Repo | What it does | Stars | Gem score | Safety |
 |---|---|---|---|---|
-| [sv3nbeast/agent-manager-lite](https://github.com/sv3nbeast/agent-manager-lite) | macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code | ⭐ 547 | 336 | 🟢 |
-| [jazzenchen/agent-hud-open](https://github.com/jazzenchen/agent-hud-open) | A HUD for Claude Code, Codex and 16 more coding agents. Know your quotas, tokens and sessions at a glance, answer reques | ⭐ 120 | 305 | 🟢 |
-| [kenn-io/agentsview](https://github.com/kenn-io/agentsview) | Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Cod | ⭐ 6347 | 287 | 🟡 |
-| [lovecake19ngoctran/claude-desktop-profiles](https://github.com/lovecake19ngoctran/claude-desktop-profiles) | Claude Desktop Profiles: Multi-Account Manager for macOS | ⭐ 58 | 267 | 🟢 |
-| [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restart | ⭐ 6337 | 265 | 🟡 |
-| [Nanako0129/syrtis](https://github.com/Nanako0129/syrtis) | AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude | ⭐ 510 | 253 | 🟢 |
-| [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks from beginner to power user! | ⭐ 4696 | 243 | 🟢 |
-| [skyline-e/Local-AI-Route](https://github.com/skyline-e/Local-AI-Route) | Local-AI-Route 是一款专为全平台桌面 AI 应用打造的轻量级、免全局 TUN、免改系统代理的进程级本地代理启动与管理工具，开箱原生深度适配ChatGPT、Antigravity、Claude、Gemini、Factory的De | ⭐ 19 | 239 | 🟢 |
-| [ntd4996/agentpet](https://github.com/ntd4996/agentpet) | A desktop pet for macOS & Windows that monitors your AI coding agents (Claude Code, Codex, Cursor, Gemini...) in real ti | ⭐ 397 | 231 | 🟡 |
-| [datlechin/pitboard](https://github.com/datlechin/pitboard) | Switch AI coding tools between your accounts. App and command line for macOS, Windows and Linux. | ⭐ 108 | 231 | 🟢 |
+| [Cygnux-Labs/Tracekit](https://github.com/Cygnux-Labs/Tracekit) | Tamper-evident tracing, policy gates and cross-checks for AI agents: see what the agent did, and why. | ⭐ 456 | 317 | 🟢 |
+| [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) | A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to  | ⭐ 1917 | 226 | 🟢 |
+| [inoio/agents-sandbox](https://github.com/inoio/agents-sandbox) | Sandbox for AI coding agents (Claude Code, opencode, pi): runs each project in an isolated microVM with host-side secret | ⭐ 83 | 191 | 🟢 |
+| [gebruder/wirken](https://github.com/gebruder/wirken) | The enterprise gateway for autonomous agents. Identity management, per-channel isolation, credential vault, per-session  | ⭐ 194 | 175 | 🟡 |
+
+### Usage, UI & Productivity for Claude Code (26)
+
+| Repo | What it does | Stars | Gem score | Safety |
+|---|---|---|---|---|
+| [sv3nbeast/agent-manager-lite](https://github.com/sv3nbeast/agent-manager-lite) | macOS 上的 Codex、Claude Code CLI 与 Claude Desktop 多实例管理器，统一管理账号、供应商密钥、独立配置、会话与代理。 / A macOS manager for Codex, Claude Code | ⭐ 547 | 338 | 🟢 |
+| [data-goblin/claude-code-filetree](https://github.com/data-goblin/claude-code-filetree) | IDE-style file tree for Claude Code: a live pane that shows which files Claude reads and edits, with git status, diffs,  | ⭐ 371 | 314 | 🟢 |
+| [jazzenchen/agent-hud-open](https://github.com/jazzenchen/agent-hud-open) | A HUD for Claude Code, Codex and 25 more coding agents. Know your quotas, tokens and sessions at a glance, answer reques | ⭐ 123 | 302 | 🟢 |
+| [kenn-io/agentsview](https://github.com/kenn-io/agentsview) | Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Cod | ⭐ 6365 | 287 | 🟡 |
+| [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) | A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restart | ⭐ 6363 | 265 | 🟡 |
+| [lovecake19ngoctran/claude-desktop-profiles](https://github.com/lovecake19ngoctran/claude-desktop-profiles) | Claude Desktop Profiles: Multi-Account Manager for macOS | ⭐ 58 | 264 | 🟢 |
+| [Nanako0129/syrtis](https://github.com/Nanako0129/syrtis) | AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude | ⭐ 510 | 252 | 🟢 |
+| [rsaryev/tokendoctor](https://github.com/rsaryev/tokendoctor) | Claude Code plugin: see where your tokens go, audit your setup against the docs, and tune settings with an approved diff | ⭐ 36 | 246 | 🟢 |
+| [skyline-e/Local-AI-Route](https://github.com/skyline-e/Local-AI-Route) | Local-AI-Route 是一款专为全平台桌面 AI 应用打造的轻量级、免全局 TUN、免改系统代理的进程级本地代理启动与管理工具，开箱原生深度适配ChatGPT、Antigravity、Claude、Gemini、Factory的De | ⭐ 20 | 241 | 🟢 |
+| [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks from beginner to power user! | ⭐ 4696 | 239 | 🟢 |
 
 ➡️ [See the full catalog](catalog/CATALOG.md)
 <!-- RADAR:END -->

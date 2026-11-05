@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T11:12:38.387Z",
-  "count": 17,
+  "updatedAt": "2026-11-05T11:12:58.887Z",
+  "count": 19,
   "repos": [
     {
       "name": "Gentleman-Programming/gentle-shell",
@@ -243,6 +243,34 @@
         ],
         "scannedFiles": 12,
         "scannedAt": "2026-11-03T11:04:11.001Z"
+      }
+    },
+    {
+      "name": "Ark0N/Codeman",
+      "url": "https://github.com/Ark0N/Codeman",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "pipes a remote download straight into a shell — install.sh",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 7,
+        "scannedAt": "2026-11-05T11:10:32.835Z"
+      }
+    },
+    {
+      "name": "danoszz/penthera",
+      "url": "https://github.com/danoszz/penthera",
+      "security": {
+        "risk": "high",
+        "score": 55,
+        "flags": [
+          "pipes a remote download straight into a shell — install.sh",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — plugin/skills/penthera/SKILL.md"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-05T11:11:27.578Z"
       }
     }
   ]
