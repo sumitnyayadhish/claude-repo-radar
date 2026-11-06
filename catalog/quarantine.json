@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T11:12:58.887Z",
-  "count": 19,
+  "updatedAt": "2026-11-06T11:10:13.777Z",
+  "count": 22,
   "repos": [
     {
       "name": "Gentleman-Programming/gentle-shell",
@@ -271,6 +271,48 @@
         ],
         "scannedFiles": 12,
         "scannedAt": "2026-11-05T11:11:27.578Z"
+      }
+    },
+    {
+      "name": "amElnagdy/delegate-skills",
+      "url": "https://github.com/amElnagdy/delegate-skills",
+      "security": {
+        "risk": "high",
+        "score": 40,
+        "flags": [
+          "disables Claude Code permission prompts — skills/agy-delegate/SKILL.md",
+          "sends API keys/tokens over the network — skills/aider-delegate/SKILL.md"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-06T11:06:59.574Z"
+      }
+    },
+    {
+      "name": "ljagiello/ctf-skills",
+      "url": "https://github.com/ljagiello/ctf-skills",
+      "security": {
+        "risk": "high",
+        "score": 65,
+        "flags": [
+          "prompt-injection style instructions — ctf-ai-ml/SKILL.md",
+          "posts data to a webhook/paste/tunnel endpoint — ctf-web/SKILL.md"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-06T11:07:07.565Z"
+      }
+    },
+    {
+      "name": "AmrDab/clawdcursor",
+      "url": "https://github.com/AmrDab/clawdcursor",
+      "security": {
+        "risk": "high",
+        "score": 45,
+        "flags": [
+          "pipes a remote download straight into a shell — docs/install.sh",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 7,
+        "scannedAt": "2026-11-06T11:07:35.129Z"
       }
     }
   ]
