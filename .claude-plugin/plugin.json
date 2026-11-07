@@ -1,6 +1,6 @@
 {
   "name": "repo-radar",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Auto-discovers hidden open-source GitHub repos (MCP servers, skills, subagents, hooks, plugins) and, on every task, suggests the security-checked ones that can make Claude Code's result better.",
   "author": {
     "name": "sumitnyayadhish"

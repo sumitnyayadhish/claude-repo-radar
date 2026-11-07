@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T11:10:13.777Z",
-  "count": 22,
+  "updatedAt": "2026-11-07T10:28:35.367Z",
+  "count": 24,
   "repos": [
     {
       "name": "Gentleman-Programming/gentle-shell",
@@ -313,6 +313,35 @@
         ],
         "scannedFiles": 7,
         "scannedAt": "2026-11-06T11:07:35.129Z"
+      }
+    },
+    {
+      "name": "MadAppGang/claudish",
+      "url": "https://github.com/MadAppGang/claudish",
+      "security": {
+        "risk": "high",
+        "score": 53,
+        "flags": [
+          "no license",
+          "pipes a remote download straight into a shell — install.sh",
+          "npm install-time script (preinstall/postinstall) — package.json"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-07T10:27:03.158Z"
+      }
+    },
+    {
+      "name": "vgrichina/berrry-wine",
+      "url": "https://github.com/vgrichina/berrry-wine",
+      "security": {
+        "risk": "high",
+        "score": 50,
+        "flags": [
+          "ships compiled binaries (packages/freeware/blobby-volley/volley.exe, packages/freeware/dxball/dxball.exe)",
+          "touches credential files (~/.ssh, ~/.aws, .npmrc) — docs/re-notes/maelstrom-native-errno-independent-integrate-20261025/setup.py"
+        ],
+        "scannedFiles": 12,
+        "scannedAt": "2026-11-07T10:27:31.428Z"
       }
     }
   ]
